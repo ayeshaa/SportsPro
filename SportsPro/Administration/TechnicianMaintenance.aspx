@@ -16,7 +16,6 @@
                 <asp:SqlDataSource ID="SqlDataSource2" runat="server"
                     ConnectionString="<%$ ConnectionStrings:TechSupportConnectionString %>"
                     SelectCommand="SELECT * FROM [Technicians] ORDER BY [Name]"></asp:SqlDataSource>
-
                 <div class="table table-responsive">
 
                     <asp:FormView ID="FormView1" runat="server" DataKeyNames="TechID" DataSourceID="SqlDataSource3">
